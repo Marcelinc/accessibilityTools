@@ -3,7 +3,7 @@ import { BsCircleHalf } from 'react-icons/bs'
 import { FaWheelchair } from 'react-icons/fa'
 import FontsizeTT from './FontsizeTT'
 
-const DropDownMenu = () => {
+const DropDownMenu = ({endTask}) => {
 
     const [visible,setVisible] = useState(false)
 
@@ -13,7 +13,7 @@ const DropDownMenu = () => {
         {visible && <div className='accessibility-menu'>
             <h2>Narzędzia dostępności</h2>
             <p className='menu-item'><span><FontsizeTT/></span>Powiększenie tekstu</p>
-            <p className='menu-item'><BsCircleHalf/> Zmień kontrast</p>
+            <p className='menu-item' onClick={endTask}><BsCircleHalf/> Zmień kontrast</p>
         </div>}
     </div>
   )
