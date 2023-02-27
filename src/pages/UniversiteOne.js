@@ -1,8 +1,14 @@
 import React from 'react'
+import '../resource/css/UniversityOne.css'
+import Nav from '../components/PageOne/Nav'
+import Content from '../components/PageOne/Content'
 
-const UniversiteOne = () => {
+const UniversiteOne = ({version}) => {
   return (
-    <div>UniversiteOne</div>
+    <div  className='bg-1'>
+      <Nav version={version}/>
+      <Content version={version}/>
+    </div>
   )
 }
 

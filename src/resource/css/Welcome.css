@@ -1,0 +1,41 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #202225;
+    color: aliceblue;
+  }
+p {
+    margin-bottom: 15px;
+  }
+#about{
+  width: 900px;
+  margin: 10px;
+  text-align: center;
+}
+  button {
+    padding: 9px;
+    margin: 5px;
+    border: none;
+    font-weight: 600;
+    font-variant: all-petite-caps;
+  }
+  p:hover,h1:hover{
+    cursor: default;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+#buttons{
+  display: flex;
+}
+.version{
+  display: grid;
+  margin: 10px;
+}
+#ankieta{
+  text-decoration: none;
+}
