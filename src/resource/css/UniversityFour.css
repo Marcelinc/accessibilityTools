@@ -1,0 +1,115 @@
+.bg-4{
+    height: 100vh;
+    background-image: url('../bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bg-4 nav {
+    background-color: #242121e6;
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    height: fit-content;
+  }
+  .bg-4 #logo {
+    display: flex;
+    align-items: center;
+  }
+.bg-4 #uczelnia-badawcza {
+    width: min(max(70px,8vw),180px);
+  }
+.bg-4 #top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 45px;
+    border-bottom: 5px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+.bg-4 #top-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: max-content;
+  }
+.bg-4 #top-links span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bg-4 #scroll-button {
+    background-color: white;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-4 #scroll-button::before{
+    background-color: black;
+    width: 20px;
+    height: 5px;
+    content: '';
+    display: block;
+    transform: rotate(45deg) translate(7px);
+    margin-bottom: 15px;
+  }
+  .bg-4 #scroll-button::after{
+    background-color: black;
+    width: 20px;
+    height: 5px;
+    content: '';
+    display: block;
+    transform: rotate(-45deg) translate(-7px);
+    margin-bottom: 15px;
+  }
+  .bg-4 #scroll-button:hover{
+    cursor:pointer;
+  }
+
+.bg-4 #bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: min(max(18px,2vw),25px);
+  font-weight: 520;
+}
+.bg-4 #bottom span:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  cursor: pointer;
+}
+
+.bg-4 #uniwersytet-logo {
+  width: min(max(120px,17vw),200px);
+  margin-right: 40px;
+}
+.bg-4 #uniwersytet-logo:hover{
+  cursor:pointer;
+}
+
+.bg-4 #searchbar {
+  background-color: #161616;
+  border-radius: 7px 7px 0 7px;
+  padding: 10px;
+  width: fit-content;
+}
+.bg-4 #searchbar input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100px;
+}
