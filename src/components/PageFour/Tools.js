@@ -24,11 +24,12 @@ const Tools = ({version}) => {
   return (
     <div className='tools'>
     {version === 'B' ? <>
-      <BsCircleHalf id='contrast' onClick={handleChangeContrast}/>
-      <FontSizeAPlusMinus/>
+      <BsCircleHalf id='contrast'/>
+      <FontSizeAPlusMinus endTask={handleChangeContrast}/>
     </> : <>
       <DropDownMenu endTask={handleChangeContrast}/>
     </>}
+    <span id='tools-lang'>EN</span>
   </div>
   )
 }

@@ -13,7 +13,7 @@ import UniversityFour from './pages/UniversityFour';
 const TRESC1 = 'Spośród dostępnych narzędzi na stronie wykorzystaj to, które zmieni kontrast na czarno-żółty'
 const TRESC2 = 'Znajdź i zastosuj narzędzie do zwiększenia czcionki na stronie niż jest ona domyślnie ustawiona'
 const TRESC3 = 'Odnajdź przycisk do zmiany kontrastu i zmień kolorystykę strony na ciemną'
-const TRESC4 = 'tresc4'
+const TRESC4 = 'Zmień rozmiar czcionki na stronie'
 
 export const OverallTimeContext = createContext()
 

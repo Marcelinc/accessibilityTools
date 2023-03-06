@@ -11,11 +11,13 @@ const Final = () => {
   const timeOne = time.time1/1000
   const timeTwo = time.time2/1000
   const timeThree = time.time3/1000
+  const timeFour = time.time4/1000
 
   const finish = () => {
     time.setTime1(0)
     time.setTime2(0)
     time.setTime3(0)
+    time.setTime4(0)
     navigate('/')
   }
 
@@ -26,6 +28,7 @@ const Final = () => {
         <p>Zadanie nr. 1 | {timeOne} s</p>
         <p>Zadanie nr. 2 | {timeTwo} s</p>
         <p>Zadanie nr. 3 | {timeThree} s</p>
+        <p>Zadanie nr. 4 | {timeFour} s</p>
         <p>Druga część badania obejmuje wypełnienie ankiety dotyczącej wykorzystywania narzędzi dostępności</p>
         <button>
           <a href='https://docs.google.com/forms/d/e/1FAIpQLSfiFcTpljEGFHDN1JrInd1YVWrF0n7hJzUQLy0UG8yqx9KKxA/viewform?usp=sf_link' target='_blank' id='ankieta'>

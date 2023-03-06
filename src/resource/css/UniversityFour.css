@@ -113,3 +113,26 @@
   color: white;
   width: 100px;
 }
+
+.bg-4 .tools {
+  display: flex;
+  align-items: center;
+}
+.bg-4 .tools > span{
+  margin-inline: 10px;
+}
+.bg-4 .tools span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.bg-4 #dropdown-menu-button{
+  color: white;
+}
+.bg-4 .accessibility-menu{
+  left: 35px;
+  top: 70px;
+  color: black;
+}
+.bg-4 #tools-lang{
+  color: white;
+}
