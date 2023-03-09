@@ -9,7 +9,7 @@ const Welcome = () => {
   return (
     <div className='content'>
         <h1>Witaj na badaniu</h1>
-        <p id='about'>Za chwilę ujrzysz trzy przykładowe strony uczelni wyższych wraz z zaimplementowanymi narzędziami dostępności. Twoim zadaniem 
+        <p id='about'>Za chwilę ujrzysz cztery przykładowe strony uczelni wyższych wraz z zaimplementowanymi narzędziami dostępności. Twoim zadaniem 
           będzie odnalezienie ich oraz wykorzystanie do realizacji zadań. Eksperyment ma na celu określenie wpływu rozmieszczenia oraz sposobu prezentacji
           powyższych narzędzi na efektywność pracy i posługiwania się nimi przez użytkowników.</p>
         <p>Gdy będziesz gotowy/a kliknij <strong>start</strong></p>
