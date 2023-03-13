@@ -9,7 +9,7 @@ const TaskInfoPage = ({strona,zadanie,tresc,destiny}) => {
   return (
     <div className='content'>
         <h1>Strona {strona}</h1>
-        <p>Zadanie nr. {zadanie}</p>
+        <p>Zadanie nr {zadanie}</p>
         <p>{tresc}</p>
         <button onClick={() => navigate(destiny)}>Rozpocznij</button>
     </div>

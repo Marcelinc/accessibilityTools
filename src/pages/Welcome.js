@@ -12,7 +12,7 @@ const Welcome = () => {
         <p id='about'>Za chwilę ujrzysz cztery przykładowe strony uczelni wyższych wraz z zaimplementowanymi narzędziami dostępności. Twoim zadaniem 
           będzie odnalezienie ich oraz wykorzystanie do realizacji zadań. Eksperyment ma na celu określenie wpływu rozmieszczenia oraz sposobu prezentacji
           powyższych narzędzi na efektywność pracy i posługiwania się nimi przez użytkowników.</p>
-        <p>Gdy będziesz gotowy/a kliknij <strong>start</strong></p>
+        <p>Gdy będziesz gotowy/a kliknij <strong>START</strong></p>
         <div id='buttons'>
           <div className='version'>
             Wersja A 

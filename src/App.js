@@ -10,10 +10,10 @@ import Final from './pages/Final';
 import { createContext, useState } from 'react';
 import UniversityFour from './pages/UniversityFour';
 
-const TRESC1 = 'Spośród dostępnych narzędzi na stronie wykorzystaj to, które zmieni kontrast na czarno-żółty'
-const TRESC2 = 'Znajdź i zastosuj narzędzie do zwiększenia czcionki na stronie'
-const TRESC3 = 'Odnajdź przycisk do zmiany kontrastu i zmień kolorystykę strony na ciemną'
-const TRESC4 = 'Zmień rozmiar czcionki na większy niż domyślnie ustawiono stronie '
+const TRESC1 = 'Spośród dostępnych narzędzi na stronie wykorzystaj to, które zmieni tło na czarne oraz czcionkę na żółtą.'
+const TRESC2 = 'Powiększ czcionkę na stronie.'
+const TRESC3 = 'Zmień kontrast strony zawierający ciemne tło.'
+const TRESC4 = 'Zmień rozmiar czcionki na stronie.'
 
 export const OverallTimeContext = createContext()
 
